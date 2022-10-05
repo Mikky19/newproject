@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        body {
+            padding: 0;
+            margin:0;
+            background: #f0f2f5;
+            font-family: Arial, sans-serif;
+
+        }
+        .box {
+            display: flex;
+            flex-flow: column;
+            justify-content:0 center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+
+        }
+        .title-box {
+            margin-bottom: 40px;
+        }
+        .form-box {
+            width: 350px;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+            background: #fff;
+            box-shadow: 0px 2px 10px 1px rgba(71,71,71, 0.5); 
+        }
+        .form-box input{
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 15px;
+            font-size: 13px;
+            box-sizing: border-box;
+            border: 1px solid #eeebeb;
+            border-radius: 5px;
+            outline: none;
+        }
+        .form-box input:focus {
+            box-shadow: 0px 0px 1px 1px rgb(22,111,229);
+        }
+        .form-box button {
+            width: 100%;
+            margin-bottom:15px;
+            color:#fff;
+            font-size: 20px;
+            font-weight: 600;
+            border-radius: 5px;
+            border: none;
+            padding: 13px 0;
+            cursor: pointer;
+            background: #166fe5;
+
+        }
+        .form-box button:hover{
+            background: #1877f2;
+        }
+        .form-box a{
+            color: #166fe5;
+            font-size: 14px;
+            text-decoration: none;
+            margin-top:5px;
+            margin-bottom: 15px;
+            display: block;
+        }
+        .form-box a:hover {
+            text-decoration: underline;
+
+        }
+        .form-box #line {
+            width:100%;
+            height:1px;
+            background: rgb(200,200,200);
+            margin: 10px 0;
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+
+        }
+        .form-box #line p {
+            background: #fff;
+            padding: 0 20px;
+            text-align: center;
+        }
+        .form-box #create-button a {
+            color: #fff;
+            font-size: 16px;
+            text-decoration: none;
+            padding: 15px 20px;
+            border-radius: 5px;
+            background: #36a420;
+            font-weight: 600;
+            display:inline-block;
+            margin-bottom: 5px;
+        }
+        .form-box #create-button a:hover {
+            background: #42b72a;
+        }
+    </style>
+    </head>
+<body>
+   <div class="box">
+       <div class="title-box">
+            <img src="facebook.jpg" alt="facebook" width="200px">
+       </div>
+       <div class="form-box">
+        <p>Log in to Facebook</p>
+        <form action="">
+            <input type="text" placeholder="Email address or phone number">
+            <input type="password" placeholder="Password">
+            <button type="submit">Log In</button>
+            <a href="forgotpass.html">forgotten password</a>
+            <div id="line">
+                <p>or</p>
+            </div>
+            <div id=create-button >
+                <a href="facebook3.html">Create New Account</a>
+            </div>
+        </form>
+
+       </div>
+   </div>
+</body>
+</html>
